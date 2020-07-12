@@ -79,7 +79,6 @@ Send2Trash==1.5.0
 six==1.15.0
 smart-open==2.0.0
 spacy==2.3.0
-spacy-lookups-data==0.3.2
 srsly==1.0.2
 starlette==0.13.4
 terminado==0.8.3
