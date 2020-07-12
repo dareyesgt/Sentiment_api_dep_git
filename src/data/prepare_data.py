@@ -11,7 +11,7 @@ class Sentiments(enum.Enum):
 
 
 def read_sample() -> DataFrame:
-    df = pd.read_csv('data/raw/reviews.csv')
+    df = pd.read_csv('../../data/raw/reviews.csv')
     df['rating'] = df['rating'].astype(dtype='int64')
 
     return df

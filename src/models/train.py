@@ -75,6 +75,7 @@ def train():
     }
     logging.info('Log probabilities for tokens in all classed computed')
 
-    with open('models/model.pkl', 'wb') as output_file:
+    with open('../../models/model.pkl', 'wb') as output_file:
         pickle.dump(model, output_file)
     logging.info('Model saved to artifact model.pkl')
+
