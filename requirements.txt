@@ -71,7 +71,6 @@ pytest==5.4.3
 python-dateutil==2.8.1
 pytz==2020.1
 pyzmq==19.0.1
-qtconsole @ file:///tmp/build/80754af9/qtconsole_1592848611704/work
 QtPy==1.9.0
 regex==2020.6.8
 requests==2.24.0
