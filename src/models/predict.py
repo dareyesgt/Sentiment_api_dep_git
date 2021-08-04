@@ -11,7 +11,7 @@ def predict(documents: List[str]):
 
     word_classes = tokenize_classes(document_classes)
 
-    with open('models/model.pkl', 'rb') as input_file:
+    with open('../../models/model.pkl', 'rb') as input_file:
         model = pickle.load(input_file)
 
     document_words = word_classes['UNK']
@@ -37,3 +37,4 @@ def predict(documents: List[str]):
             predictions.append('NEG')
 
     return predictions
+

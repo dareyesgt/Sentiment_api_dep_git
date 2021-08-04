@@ -78,4 +78,3 @@ def train():
     with open('../../models/model.pkl', 'wb') as output_file:
         pickle.dump(model, output_file)
     logging.info('Model saved to artifact model.pkl')
-

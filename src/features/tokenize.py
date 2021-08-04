@@ -14,7 +14,7 @@ def tokenize_classes(document_classes: Dict[str, List[str]], load_bigrams: bool 
         word_classes[document_class] = remove_stopwords(word_classes[document_class])
 
     if load_bigrams:
-        with open('../../models/bigrams.pkl', 'rb') as input_file:
+        with open('/Users/Dareyes/Desktop/Sentiment_api_dep/models/bigrams.pkl', 'rb') as input_file:
             bigram_mod = pickle.load(input_file)
     else:
         words = []
