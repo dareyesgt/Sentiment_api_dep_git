@@ -1,5 +1,5 @@
 enum==3.4
-typing0=3.5
+typing==3.5
 pandas==1.0.5
 pickle==4.0
 logging==3.7.11
