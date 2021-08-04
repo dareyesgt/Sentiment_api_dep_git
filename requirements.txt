@@ -1,4 +1,4 @@
-enum==3.4
+enum==0.4.7
 typing==3.5
 pandas==1.0.5
 pickle==4.0
