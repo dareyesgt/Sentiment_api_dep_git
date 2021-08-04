@@ -1,8 +1,4 @@
-enum==0.4.7
-typing==3.5
 pandas==1.0.5
-pickle==4.0
-logging==3.7.11
 numpy==1.19.2
 en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.3.0/en_core_web_sm-2.3.0.tar.gz
 fastapi==0.68.0
